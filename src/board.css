@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#boardContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 300px;
+}
+
+.individualBox {
+  text-align: center;
+  border: 1px solid black;
+  padding: 60px;
+  transition-duration: .3s;
+  font-size: 40px;
+}
+
+.individualBox:hover {
+  background: lightblue;
+  cursor: pointer;
+}
